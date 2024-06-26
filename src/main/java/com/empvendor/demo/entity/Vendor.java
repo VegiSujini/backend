@@ -12,17 +12,27 @@ public class Vendor {
     private String name;
     private String upi;
 
-    public String getName() {
-        return  this.name;
+    public String getEmail() {
+        return email;
     }
 
-    public String getEmail() {
-        return this.email;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getUpi() {
-        return  this.upi;
+        return upi;
     }
 
-    // Getters and Setters
+    public void setUpi(String upi) {
+        this.upi = upi;
+    }
 }

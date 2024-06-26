@@ -13,8 +13,6 @@ public class Employee {
     private String designation;
     private double ctc;
 
-    // Getters and Setters
-
     public String getEmail() {
         return email;
     }
